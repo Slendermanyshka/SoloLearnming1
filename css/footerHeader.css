@@ -1,0 +1,103 @@
+p,
+ul,
+li,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+/*
+body{
+    width: 1600px;
+}
+*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 80px;
+    padding-inline: 215px;
+    background-color: rgb(255, 212, 148);
+}
+
+
+.logo{
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.logo svg{
+    color: rgb(12, 141, 0);
+}
+.logoTop{
+    margin-right: 93px ;
+}
+
+.logo a{
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+.logo span{
+    color: rgb(12, 141, 0);
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.logo a:hover, .logo a:focus{
+    color: rgb(12, 141, 0);
+
+
+}
+
+.navUl
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.navUl li{
+    display: inline;
+
+    margin-left: 50px;
+}
+.navUl a{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #000;
+}
+
+.navUl a:hover, .navUl a:focus{
+    background-color: rgb(12, 141, 0);
+    color: rgb(255, 212, 148);
+}
+
+.contactsTop{
+
+    display: flex;
+
+    list-style-type: none;
+}
+.contactsTop li{
+    margin-right: 50px;
+}
+.contactsTop a{
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.contactsTop a:hover, .contactsTop a:focus{
+    background-color: rgb(12, 141, 0);
+    color: rgb(255, 212, 148);
+}
