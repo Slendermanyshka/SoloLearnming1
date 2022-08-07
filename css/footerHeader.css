@@ -39,7 +39,9 @@ body{
 .logoTop{
     margin-right: 93px ;
 }
-
+.footerLogo{
+    margin-bottom: 20px;
+}
 .logo a{
     font-weight: 700;
     font-size: 20px;
@@ -66,7 +68,6 @@ body{
 }
 .navUl li{
     display: inline;
-
     margin-left: 50px;
 }
 .navUl a{
@@ -98,6 +99,40 @@ body{
 }
 
 .contactsTop a:hover, .contactsTop a:focus{
+    background-color: rgb(12, 141, 0);
+    color: rgb(255, 212, 148);
+}
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 252px;
+    padding-inline: 215px;
+    background-color: rgb(255, 212, 148);
+}
+.footer ul{
+    list-style-type: none;
+}
+
+.footerContactsList a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #000;
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.footerContactsList a:hover, .footerContactsList a:focus{
     background-color: rgb(12, 141, 0);
     color: rgb(255, 212, 148);
 }

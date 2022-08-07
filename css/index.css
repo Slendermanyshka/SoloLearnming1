@@ -1,6 +1,10 @@
-.section {
+.section{
     margin-bottom: 94px;
     padding-inline: 215px;
+}
+.section:last-of-type{
+    margin-bottom: 0;
+
 }
 
 .aboutSec {
@@ -96,4 +100,37 @@ margin-right: 30px;
 box-sizing: border-box;
 
 width: 270px;
+}
+
+.motivator{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    flex-direction: row;
+    height: 150px;
+    background-color: #2f3a30;
+    font-weight: 400;
+    color: #fff;
+}
+
+.motivator ul{
+    list-style-type: none;
+}
+.motivator li:last-of-type{
+    margin-top: 20px;
+}
+.motivatorLinks a:last-of-type{
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 10px 32px;
+    color: rgb(255, 212, 148);
+    border-radius: 5px;
+    background-color: rgb(12, 141, 0);
+}
+
+.motivator a:hover,.motivator a:focus{
+    color: rgb(12, 141, 0);
+    background-color: rgb(255, 212, 148);
 }
