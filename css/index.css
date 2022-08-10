@@ -7,6 +7,8 @@
 
 }
 
+
+
 .aboutSec {
     display: flex;
     justify-content: center;
@@ -22,6 +24,7 @@
     display: inline-block;
     box-sizing: border-box;
     text-decoration: none;
+    cursor: pointer;
     padding: 10px 32px;
     color: rgb(255, 212, 148);
     border-radius: 5px;

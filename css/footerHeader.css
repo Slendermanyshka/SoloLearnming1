@@ -8,8 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   padding: 0;
 }
 /*
@@ -67,12 +66,15 @@ body{
     list-style-type: none;
 }
 .navUl li{
-    display: inline;
+    display: inline-block;
     margin-left: 50px;
+}
+.navUl li:first-of-type{
+    margin-left: 0px;
 }
 .navUl a{
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px 15px;
     border-radius: 5px;
     color: #000;
 }
@@ -83,9 +85,7 @@ body{
 }
 
 .contactsTop{
-
     display: flex;
-
     list-style-type: none;
 }
 .contactsTop li{
@@ -116,6 +116,13 @@ body{
 }
 .footer ul{
     list-style-type: none;
+}
+.footerContactsList li{
+    margin-bottom: 10px;
+}
+
+.footerContactsList li:last-of-type{
+    margin-bottom: 0px;
 }
 
 .footerContactsList a{
