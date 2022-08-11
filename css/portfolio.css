@@ -33,10 +33,6 @@
     margin-right: 0px;
 }
 
-/*
-.portfolio{
-display: flex;
-}*/
 
 .portfolioList{
     list-style-type: none;
@@ -51,7 +47,23 @@ display: flex;
     width: 370px;
     height: 404px;
 
+
+
+
 }
+
+.portfolioList li:hover{
+    border-top: #000 1px solid;
+    border-bottom: #000 1px solid;
+}
+.portfolioList li:hover:last-of-type{
+    border-top: #000 1px solid;
+}
+.portfolioList li:hover:first-of-type{
+    border-bottom: #000 1px solid;
+}
+
+
 
 .portfolioList p{
     font-style: normal;

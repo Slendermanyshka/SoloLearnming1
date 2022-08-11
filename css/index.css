@@ -4,7 +4,6 @@
 }
 .section:last-of-type{
     margin-bottom: 0;
-
 }
 
 
@@ -18,10 +17,15 @@
     background-color: #2f3a30;
     font-weight: 400;
     color: #fff;
+
+    background-image: linear-gradient(#2f3a30ce,#2f3a30ce),url(../images/2\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .aboutSecBtn {
     margin-top: 20px;
-    display: inline-block;
+    display: block;
     box-sizing: border-box;
     text-decoration: none;
     cursor: pointer;
@@ -29,6 +33,16 @@
     color: rgb(255, 212, 148);
     border-radius: 5px;
     background-color: rgb(12, 141, 0);
+}
+
+.aboutSecBtn:before{
+    content: "";
+    display: inline-block;
+   /* background-color: aqua;
+    background-image: ;*/
+    width: 20px;
+    height: 20px;
+
 }
 .aboutSecBtn:hover,
 .aboutSecBtn:focus {
