@@ -35,15 +35,15 @@
     background-color: rgb(12, 141, 0);
 }
 
-.aboutSecBtn:before{
+/* .aboutSecBtn:before{
     content: "";
     display: inline-block;
    /* background-color: aqua;
-    background-image: ;*/
+    background-image: ; 
     width: 20px;
     height: 20px;
 
-}
+} */
 .aboutSecBtn:hover,
 .aboutSecBtn:focus {
     color: rgb(12, 141, 0);
