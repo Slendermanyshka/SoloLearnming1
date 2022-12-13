@@ -52,18 +52,17 @@
 
 }
 
-.portfolioList li:hover{
+
+
+.portfolioList li:hover .itemDesc{
+display: block;
+} 
+
+
+.item:hover{
     border-top: #000 1px solid;
     border-bottom: #000 1px solid;
 }
-.portfolioList li:hover:last-of-type{
-    border-top: #000 1px solid;
-}
-.portfolioList li:hover:first-of-type{
-    border-bottom: #000 1px solid;
-}
-
-
 
 .portfolioList p{
     font-style: normal;
@@ -98,4 +97,19 @@
 .imgContainer{
     width: 370px;
 height: 294px;
+position: relative;
 }
+ .imgContainer:hover, .imgContainer:focus .itemDesc{
+    display: block;
+} 
+
+
+
+.itemDesc{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(255, 212, 148);
+    padding: 5px 15px;
+    display: none;
+}
+
