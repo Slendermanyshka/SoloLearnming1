@@ -60,6 +60,8 @@ h6 {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    color: #000;
+
 }
 .navUl li{
     display: inline-block;
@@ -72,7 +74,6 @@ h6 {
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;
-    color: #000;
 }
 
 .navUl a:hover, .navUl a:focus{
@@ -98,6 +99,7 @@ h6 {
     background-color: rgb(12, 141, 0);
     color: rgb(255, 212, 148);
 }
+
 
 
 
